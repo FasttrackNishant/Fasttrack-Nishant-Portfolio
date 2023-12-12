@@ -25,6 +25,7 @@ const CardSection: FC<CardSectionProps> = ({ title, version, data }) => {
                     />
                 ))}
             </div>
+            
         </section>
     );
 };

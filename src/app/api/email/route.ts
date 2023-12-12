@@ -3,15 +3,16 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_KEY);
 
 export async function POST(req: Request) {
-    const { name, email, message } = await req.json();
-    await resend.sendEmail({
-        from: 'Acme <onboarding@resend.dev>',
-        to: 'nwalia.ez@gmail.com',
-        subject: 'hello world',
-        text: JSON.stringify({ name, email, message }),
-    });
+	const { name, email, message } = await req.json();
+	console.log(resend);
+	await resend.sendEmail({
+		from: 'Acme <onboarding@resend.dev>',
+		to: 'devnishant63@gmail.com',
+		subject: 'hello world',
+		text: `text from mail`,
+	});
 
-    return NextResponse.json({
-        status: 'ok',
-    });
+	return NextResponse.json({
+		status: 'ok',
+	});
 }

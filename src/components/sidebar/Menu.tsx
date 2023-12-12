@@ -12,6 +12,7 @@ import {
 	Share2,
 	Shirt,
 	Globe,
+	Clapperboard,
 	ShoppingCart,
 	Ticket,
 	Video,
@@ -41,11 +42,12 @@ const Menu: FC<MenuProps> = ({}) => {
 				effect="slideUp">
 				<Video /> Videos
 			</List>
-			<List link="/" effect="slideUp">
-				<Flame /> Trending
+			<List link="/content" effect="slideUp">
+				<Clapperboard />
+				My Content
 			</List>
-			<List link="/" effect="slideUp">
-				<Code /> Snippets
+			<List link="/introduction" effect="slideUp">
+				<Code /> About
 			</List>
 
 			{/* List 2 */}
@@ -78,7 +80,7 @@ const Menu: FC<MenuProps> = ({}) => {
 				target="_blank"
 				link="https://fasttracknishant.blogspot.com/"
 				effect="slideUp">
-				<Globe  color="#f77f00" /> Blog Page
+				<Globe color="#f77f00" /> Blog Page
 			</List>
 
 			{/* List 3 */}

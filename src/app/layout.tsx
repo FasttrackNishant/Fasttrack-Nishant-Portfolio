@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
 	title: 'FastTrack Nishant',
-	description: 'Learning made EZ',
+	description: 'Be FastTrack',
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
 						<Toaster />
 						<div className="flex">
 							<SideBar />
-							<main className="flex-1 pl-0 lg:pl-[300px]">
+							<main className="flex-1 pl-0 lg:pl-[300px] ">
 								<Navbar />
 								{children}
 							</main>

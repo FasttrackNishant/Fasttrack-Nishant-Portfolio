@@ -16,6 +16,7 @@ import {
 	ShoppingCart,
 	Ticket,
 	Video,
+	TreePine,
 	X,
 	Youtube,
 } from 'lucide-react';
@@ -80,7 +81,7 @@ const Menu: FC<MenuProps> = ({}) => {
 				target="_blank"
 				link="https://fasttracknishant.blogspot.com/"
 				effect="slideUp">
-				<Globe color="#f77f00" /> Blog Page
+				<TreePine color="#f77f00" /> Connect with me..
 			</List>
 
 			{/* List 3 */}

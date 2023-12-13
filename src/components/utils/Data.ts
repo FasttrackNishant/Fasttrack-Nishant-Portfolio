@@ -29,6 +29,14 @@ export interface IProjectSectionCardData {
 	href?: string;
 }
 
+export interface IntroCardData {
+	id: number;
+	title: string;
+	desc: string;
+	imageUrl?: string;
+	reverse?: boolean;
+}
+
 export const projectCard: IProjectSectionCardData[] = [
 	{
 		id: 1,
@@ -333,4 +341,32 @@ export const otherCards: ISectionCardData[] = [
 	// 	snippetCount: 1128,
 	// 	progress: 70,
 	// },
+];
+
+export const introCards: IntroCardData[] = [
+	{
+		id: 1,
+		title: 'Programmer',
+		desc: `Passionate about programming, specializing in the MERN
+		stack (MongoDB, Express.js, React, Node.js) for scalable
+		web applications. Eager to contribute to meaningful
+		projects and actively involved in open-source. Explore
+		my GitHub for more.`,
+		imageUrl: 'code.jpg',
+		reverse: false,
+	},
+	{
+		id: 2,
+		title: 'Content Creator',
+		desc: `This is my self-exploration stage, where I create valuable content. Through blogging and YouTube, I share insights in the software industry on "Software Fortune" and cover personality development, finance, and investing on "The Fast Track Nishant."`,
+		imageUrl: 'content.jpg',
+		reverse: true,
+	},
+	{
+		id: 3,
+		title: 'Blogging',
+		desc: `Passion drives me to blog and engage in creative writing. It opens new mental doors, expanding my thoughts and vision. Explore my blogs to delve into my perspectives.`,
+		imageUrl: 'blog.jpg',
+		reverse: false,
+	},
 ];

@@ -6,10 +6,11 @@ import {
 	Shirt,
 	Ticket,
 	Navigation,
+	TreePine,
 } from 'lucide-react';
 import { FaRegUser } from 'react-icons/fa';
 import { IoLibraryOutline } from 'react-icons/io5';
-import { FaPenToSquare } from "react-icons/fa6";
+import { FaPenToSquare } from 'react-icons/fa6';
 import Link from 'next/link';
 
 interface MoreProjectsCardsProps {
@@ -27,7 +28,8 @@ const iconsMap = {
 	navigation: <Navigation />,
 	user: <FaRegUser />,
 	library: <IoLibraryOutline />,
-	pen: <FaPenToSquare  />,
+	pen: <FaPenToSquare />,
+	tree: <TreePine />,
 };
 
 const MoreProjectsCards: FC<MoreProjectsCardsProps> = ({

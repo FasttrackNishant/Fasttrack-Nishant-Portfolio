@@ -1,0 +1,50 @@
+@keyframes wave {
+
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(0);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateY(-30px) rotate(6deg);
+    }
+
+    30% {
+        transform: translateY(15px) rotate(-6deg);
+    }
+
+    45% {
+        transform: translateY(-15px) rotate(3.6deg);
+    }
+
+    60% {
+        transform: translateY(9px) rotate(-2.4deg);
+    }
+
+    75% {
+        transform: translateY(-6px) rotate(1.2deg);
+    }
+}
+
+.animatewave {
+    animation: wave 4s linear 0s infinite normal none;
+}
+
+
+@keyframes myAnim {
+	0% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+		transform: scale(1);
+	}
+
+	100% {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+		transform: scale(1.1);
+	}
+}
+
+.scaleanim {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}

@@ -1,26 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import AboutImg from '../../../public/images/about.jpg';
 import Image from 'next/image';
+import styles from '@/app/styles/app.module.css';
 
 const Introduce = () => {
 	return (
-		<div className="flex-col flex-1 gap-3 items-center justify-center   sm:flex-col md:flex  md:flex-row lg:flex-row ">
+		<div className="flex-col flex-1 gap-3  items-center justify-center   sm:flex-row   md:flex  md:flex-row lg:flex-row ">
 			<Image
-				className="  rounded-lg"
+				className="  rounded-lg sm:m-auto"
 				src={AboutImg}
 				alt="About Image"
 				width={500}
 				height={400}
 			/>
-			<div className="bg-cardPrimary flex flex-col items-center ">
-				<h3 className="font-bold  text-3xl p-4  ">
-					👋HI ! I am Nishant Patil 🙏
+			<div className="bg-cardPrimary flex flex-col items-center my-3">
+				<h3 className="text-base w-fit  font-bold sm:text-xl  md:text-3xl   ">
+					<span className={styles.animatewave}>👋</span>
+					<span>Hi ! I am Nishant Patil 🙏 </span>
 				</h3>
-				<p className="mt-2 px-4 justify-ev font-serif text-secondary">
+				<p className="my-2 text-sm justify-evenly font-serif text-secondary  sm:text-sm text-center">
 					{' '}
-					A tech domain Personality, Pursuing a B.Tech degree in
-					Computer Engineering at Pune University. I am Passionate
-					about Programming and development stuff.
+					Tech enthusiast pursuing a B.Tech in Computer Engineering at
+					Pune University. Passionate about programming and
+					development.{' '}
 				</p>
 			</div>
 		</div>

@@ -10,7 +10,7 @@ const ProfileName: FC<ProfileNameProps> = ({}) => {
 		<div className="text-3xl flex flex-col font-bold text-highlight">
 			Nishant Patil
 			<div className="text-sm font-thin flex justify-between items-center">
-				@ftnishant
+				@fasttracknishant
 				<Link
 					className="block md:hidden"
 					href="https://www.youtube.com/@FastTrackNishant/featured"

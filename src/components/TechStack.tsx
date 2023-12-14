@@ -46,6 +46,19 @@ const TechStack: FC<TechStackProps> = ({}) => {
 						'AWS',
 					]}
 				/>
+				<TechCard
+					title="Programming"
+					classaName="bg-[#10c0a2]"
+					tech={[
+						'C',
+						// 'Kubernetes',
+						'C++',
+						// 'Jenkins',
+						// 'Ansible',
+						// 'Terraform',
+						'Python',
+					]}
+				/>
 			</div>
 		</div>
 	);

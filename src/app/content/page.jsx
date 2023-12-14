@@ -3,7 +3,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      content page
+      <h2>Page in Under Construction</h2>
     </div>
   )
 }

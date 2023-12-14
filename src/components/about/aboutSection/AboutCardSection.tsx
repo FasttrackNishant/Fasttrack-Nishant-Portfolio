@@ -7,7 +7,6 @@ interface IntroCardDataProps {
 }
 
 const AboutCardSection: FC<IntroCardDataProps> = ({ data }) => {
-	console.log(data);
 	return (
 		<div>
 			{data.map((card) => (

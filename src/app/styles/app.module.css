@@ -34,17 +34,38 @@
 
 
 @keyframes myAnim {
-	0% {
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-		transform: scale(1);
-	}
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        transform: scale(1);
+    }
 
-	100% {
-		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-		transform: scale(1.1);
-	}
+    100% {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        transform: scale(1.1);
+    }
 }
 
 .scaleanim {
     animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.wavetext::before {
+    content: "👋";
+    position: absolute;
+    
+    animation: 1s wave ease infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(30deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }

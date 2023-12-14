@@ -81,7 +81,7 @@ export const moreProjects = [
 		title: 'FasttrackNishant Portfolio',
 		techStack: 'HTML, CSS, Javascript',
 		icon: 'user',
-		href: 'https://github.com/nwaliaez/HardhatLottery',
+		href: 'https://github.com/FasttrackNishant/FastTrackNishantPortfolio',
 	},
 	{
 		id: 3,
@@ -359,7 +359,7 @@ export const introCards: IntroCardData[] = [
 		id: 2,
 		title: 'Content Creator',
 		desc: `This is my self-exploration stage, where I create valuable content. Through blogging and YouTube, I share insights in the software industry on "Software Fortune" and cover personality development, finance, and investing on "The Fast Track Nishant."`,
-		imageUrl: 'content.jpg',
+		imageUrl: 'camera.webp',
 		reverse: true,
 	},
 	{

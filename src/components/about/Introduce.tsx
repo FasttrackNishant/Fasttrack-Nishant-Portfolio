@@ -15,8 +15,9 @@ const Introduce = () => {
 			/>
 			<div className="bg-cardPrimary flex flex-col items-center my-3">
 				<h3 className="text-base w-fit  font-bold sm:text-xl  md:text-3xl   ">
-					<span className={styles.animatewave}>👋</span>
-					<span>Hi ! I am Nishant Patil 🙏 </span>
+					<span className={styles.wavetext}>
+						👋 Hi ! I am Nishant Patil 🙏{' '}
+					</span>
 				</h3>
 				<p className="my-2 text-sm justify-evenly font-serif text-secondary  sm:text-sm text-center">
 					{' '}

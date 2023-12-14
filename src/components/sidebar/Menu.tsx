@@ -79,7 +79,7 @@ const Menu: FC<MenuProps> = ({}) => {
 			</List>
 			<List
 				target="_blank"
-				link="https://fasttracknishant.blogspot.com/"
+				link="https://linktr.ee/fasttracknishant"
 				effect="slideUp">
 				<TreePine color="#f77f00" /> Connect with me..
 			</List>
